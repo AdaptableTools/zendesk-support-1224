@@ -1,14 +1,24 @@
-cd Frisbee-Cash
+### Steps to Recreate the Issue
 
-npm i
+1. **Navigate to the Project Directory**  
+   ```bash
+   cd Frisbee-Cash
+   ```
 
-to run dev server
+2. **Install Dependencies**  
+   ```bash
+   npm install
+   ```
 
-npm run dev
+3. **Run Development Server and Verify Grid**  
+   ```bash
+   npm run dev
+   ```
 
+4. **Run Production Version to Recreate Issue**  
+   ```bash
+   npm run build
+   npm run preview
+   ```
 
-to run prod version 
-
-npm run build
-
-npm run preview
+Each step should be completed in the order given to effectively recreate the issue. Let me know if any additional details are required.
